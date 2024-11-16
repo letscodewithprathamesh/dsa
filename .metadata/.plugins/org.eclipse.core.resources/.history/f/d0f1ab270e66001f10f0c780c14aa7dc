@@ -1,0 +1,25 @@
+package test4;
+
+public class Question51
+{
+	public static void main(String[] args) 
+	{
+		String name="Prathamesh";
+		
+		int length=name.length();
+		
+		for(int i=0;i<length;i++)
+		{
+			if(isVowels(name.charAt(i)))
+			{
+				countVowels++;
+			}
+			else
+			{
+				consonants++;
+			}
+		}
+		
+	}
+
+}

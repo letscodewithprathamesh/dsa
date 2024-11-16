@@ -1,0 +1,23 @@
+package test4;
+
+public class Question52 
+{
+	public static void main(String[] args) 
+	{
+		String str="My Name is Prathamesh Sadashiv Yadav";
+		
+		int length=str.length();
+		
+		for(int i=0;i<length;i++)
+		{
+			String word[]=str.split(" "); // 'My','Name' ,.... 
+			
+			String result = word[i]; // My
+			
+			System.out.println(result.charAt(0)); //M
+			
+		}
+		
+	}
+
+}

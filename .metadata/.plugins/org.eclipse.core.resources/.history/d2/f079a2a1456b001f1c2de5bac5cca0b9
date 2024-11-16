@@ -1,0 +1,19 @@
+package test4;
+
+//Find First Repeating character from String
+
+public class Question55 
+{
+	public static void main(String[] args) 
+	{
+		String name="Prathamesh";
+		
+		firstOccranceofString(name);
+		
+	}
+
+	private static String firstOccranceofString(String name) {
+	
+		return "-1";
+	}
+}

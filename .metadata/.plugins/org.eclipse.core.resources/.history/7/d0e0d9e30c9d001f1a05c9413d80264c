@@ -1,0 +1,18 @@
+package test4;
+
+//Toggle the String
+
+public class Question68 
+{
+	public static void main(String[] args) 
+	{
+		String s="N@Na";
+		
+		char ch[]=s.toCharArray();
+		
+		ToggleCharacter(ch)
+		
+		
+	}
+
+}

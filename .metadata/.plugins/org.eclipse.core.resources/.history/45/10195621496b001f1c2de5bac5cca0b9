@@ -1,0 +1,15 @@
+package test4;
+
+public class Question56 
+{
+	public static void main(String[] args) 
+	{
+		String name="Hello";
+		
+		int arr1[]=new int[26];
+		
+		
+		
+	}
+
+}

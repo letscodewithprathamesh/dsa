@@ -1,0 +1,11 @@
+package test4;
+
+//print one letter Twicw of given String input ="hello" output="hheelllloo"
+
+public class Question {
+
+	public static void main(String[] args) {
+		String s="hello";
+	}
+	
+}

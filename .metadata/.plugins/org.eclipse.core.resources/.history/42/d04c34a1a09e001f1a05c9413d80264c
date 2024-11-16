@@ -1,0 +1,37 @@
+package test5;
+
+import java.util.Arrays;
+
+//Mean and Median of an Array
+
+public class Question84 
+{
+	public static void main(String[] args) {
+		int arr[]= {1,4,71,76,8,9};
+
+		int n=arr.length;
+		
+		Arrays.sort(arr);
+		
+		meanofelements(arr,n);
+		
+		medianofElements(arr);
+	}
+
+	private static void meanofelements(int[] arr, int n) 
+	{
+		float sum=0;
+		
+		for(int i:arr)
+		{
+			sum=sum+i;
+		}
+		
+		float result= sum/n;
+		
+		System.out.println(result);
+	}
+	
+	
+	
+}

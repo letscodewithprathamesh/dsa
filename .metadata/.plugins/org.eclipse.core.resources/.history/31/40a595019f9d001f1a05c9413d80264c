@@ -1,0 +1,37 @@
+package test1;
+
+//Decimal to  Binary
+
+public class Question23
+{
+	public static void main(String[] args) {
+		
+		int num=12;
+		
+		int i=0;
+		
+		int binary[]=new int[100];
+		
+		while(num != 0)
+		{
+			binary[i]=num%2;
+			i++;
+			num=num/2;
+		}
+		
+		for(int j=i-1;j>=0;j--)
+		{
+			System.out.print(binary[j]);
+		}
+		
+		
+	}
+
+}
+
+
+/*Step 1: Divide the given decimal number by 2 and note down the remainder.
+Step 2: Now, divide the obtained quotient by 2, and note the remainder again.
+Step 3: Repeat the above steps until you get 0 as the quotient.
+Step 4: Now, write the remainders in such a way that the last remainder is written first, followed by the rest in the reverse order.
+Step 5: This can also be understood in another way which states that the Least Significant Bit (LSB) of the binary number is at the top and the Most Significant Bit (MSB) is at the bottom. This number is the binary value of the given decimal number.*/

@@ -1,0 +1,27 @@
+package test4;
+
+import java.util.Map;
+
+//java program to count the occurrences of each character
+
+public class Question53 
+{
+	public static void main(String[] args) 
+	{
+		String name="Hello World";
+		
+		getEachOccurance(name);
+		
+	}
+
+	private static void getEachOccurance(String name) {
+		
+		new HashMap<Character , Integer>();
+		
+		
+		
+		
+		
+	}
+
+}

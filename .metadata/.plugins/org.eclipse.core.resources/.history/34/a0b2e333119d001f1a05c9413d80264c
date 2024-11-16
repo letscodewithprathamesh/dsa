@@ -1,0 +1,16 @@
+package test5;
+
+//Rotate Array element by k
+
+public class Question83 
+{
+	public static void main(String[] args) {
+		
+		int arr[]= {10,20,30,40,50};
+		
+		int k=2;
+		
+		
+	}
+
+}
