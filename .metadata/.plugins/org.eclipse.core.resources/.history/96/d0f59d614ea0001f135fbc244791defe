@@ -1,7 +1,0 @@
-package test4;
-
-//Reverse Every Word at its Original Position  Input="Java is Awesome" Output="avaJ si emosewA"
-
-public class Question72 {
-
-}

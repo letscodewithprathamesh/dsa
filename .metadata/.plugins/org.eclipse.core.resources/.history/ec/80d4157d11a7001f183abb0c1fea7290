@@ -1,0 +1,36 @@
+package test5;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+
+//Merge 2 sorted array into single array
+
+public class Question86
+{
+	public static void main(String[] args) {
+		
+		int arr1[]= {1,4,6};
+		
+		int arr2[]= {2,3,5};
+		
+		ArrayList<Integer> list=new ArrayList<Integer>();
+		
+		int k=0;
+		
+		for(int i=0;i<arr1.length;i++)
+		{
+			for(int j=0;j<arr2.length;j++)
+			{
+				if(arr1[i]>arr2[j])
+				{
+					list.add(arr1[i]);
+				}
+			}
+		}
+		
+		Arrays.toString(list);
+		
+	}
+	
+
+}

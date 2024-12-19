@@ -32,8 +32,9 @@ public class Question85 {
 	//Approach2 
 	private static void commonElements1(int[] arr1, int[] arr2) 
 	{
-		HashSet<Integer> common=new HashSet<Integer>();
 		HashSet<Integer> set=new HashSet<Integer>();
+		HashSet<Integer> common=new HashSet<Integer>();
+	
 		
 		for(int nums:arr1)
 		{

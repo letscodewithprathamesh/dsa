@@ -1,0 +1,25 @@
+package test5;
+
+//find union of 2 arrays
+
+public class Question87 {
+	
+	public static void main(String[] args) {
+		
+		int arr1[]= {1,2,2,1};
+		int arr2[]= {2,3};
+		
+		union(arr1,arr2);
+		
+	}
+
+	private static int[] union(int[] arr1, int[] arr2) {
+		
+		int n=arr1.length+arr2.length;
+		
+		int result[]=new int[n];
+		
+		return result;
+	}
+
+}
